@@ -6,8 +6,8 @@ Description:		This plugin only provides a shared copy of the WPF framework (vers
 Version:			0.1.0
 Author:				Sergey S. Betke
 Author URI:			http://sergey-s-betke.blogs.csm.nov.ru/about
-Text Domain:		wpf-admin
-Domain Path:		/languages/
+Text Domain:		wpf
+Domain Path:		/wpf/languages/
 GitHub Plugin URI: 	https://github.com/IT-Service-WordPress/wpf-v1
 */
 
