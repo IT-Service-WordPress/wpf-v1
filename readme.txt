@@ -1,23 +1,19 @@
-=== Plugin Name ===
+=== WordPress plugin framework WPF v1 ===
 Contributors: sergey.s.betke@yandex.ru
 Donate link:
-Tags: cache, cache-control
+Tags: framework
 Requires at least: 3.9.0
 Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Automatically send HTTP 1.1 headers "Cache-control", "Pragma" and "Expires".
+This plugin only provides a shared copy of the WPF framework (version 1) for other plugins.
+Use this plugin allows you to use the wordpress update mechanism to update the WPF framework.
 
 == Description ==
 
-Automatically send HTTP 1.1 headers "Cache-control", "Pragma" and "Expires".
-You can set cache TTL in options page.
-
-Check plugin options on options page.
-
-For more information, please visit the [Sergey S. Betke blog](http://sergey-s-betke.blogs.csm.nov.ru/category/web/wordpress/).
+For more information, please visit the [github repository](https://github.com/IT-Service-WordPress/WPF).
 
 == Upgrade Notice ==
 
@@ -31,7 +27,7 @@ This section describes how to install the plugin and get it working.
 = Using The WordPress Dashboard =
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'plugin-name'
+2. Search for 'WordPress plugin framework WPF v1'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
@@ -40,31 +36,25 @@ This section describes how to install the plugin and get it working.
 
 1. Navigate to the 'Add New' in the plugins dashboard
 2. Navigate to the 'Upload' area
-3. Select `plugin-name.zip` from your computer
+3. Select `wpf-v1.zip` from your computer
 4. Click 'Install Now'
 5. Activate the plugin in the Plugin dashboard
 
 
 = Using FTP =
 
-1. Download `plugin-name.zip`
-2. Extract the `plugin-name` directory to your computer
-3. Upload the `plugin-name` directory to the `/wp-content/plugins/` directory
+1. Download `wpf-v1.zip`
+2. Extract the `wpf-v1` directory to your computer
+3. Upload the `wpf-v1` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
 == Frequently Asked Questions ==
 
 = Requirements? =
 
-Just read "installation" section.
-
-== Screenshots ==
-
-1. HTTP response headers in browser.
+1. WordPress 3.9.0 or later
+2. PHP 5.5.0 or later
 
 == ToDo ==
-The next version or later:
-* optional http cache-control **max-age** header value and **must-revalidate**
-* just private cache headers, when post has limited access
-* cache-control and Last-Modification headers - to separate plugins
-* **if-modified** http request support (separate plugins)
+
+For more information, please visit the [github repository](<https://github.com/IT-Service-WordPress/WPF/issues>).
